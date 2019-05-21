@@ -2,6 +2,10 @@
      margin: 0;
      padding: 0;
      border: 0;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -mozbox-sizing: border-box;
+     -o-box-sizing: border-box;
 }
  body{
      background-color: #eee;
@@ -10,7 +14,7 @@
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
-     
+
 
      color: #222;
      font: tahoma;
@@ -56,4 +60,34 @@
      font-family: tahoma;
      font-size: 12px;
      color: rgba(0, 255, 0);
+}
+
+
+.cloud{
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 150, 0);
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  border: 5px solid #34495e;
+  margin: 20px auto 20px;
+  padding: 20px;
+  float: left;
+
+
+}
+
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: rgb(150, 0, 0);
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  border: 5px solid #34495e;
+  margin: 10px;
+  padding: 20px;
+
 }
