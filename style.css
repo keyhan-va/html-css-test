@@ -1,5 +1,5 @@
 body{
-  background: #fff;
+  /*background: #fff;*/
 }
 table{
   width: 100%
@@ -14,4 +14,31 @@ table,th,td{
 }
 tr:nth-child(even){
   background: #ccc;
+}
+
+
+a{
+  color: #222;
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 12px;
+}
+
+/* زمانی که نشانگر موس روی لینک هست*/
+a:hover{
+  background: blue;
+}
+/*زمانی که ما لینک رو یک بار باز کردیم */
+
+a:visited{
+  color: #666;
+}  /*زمانی که روی لینک کلیک میکنیم*/
+
+a:focus{
+  color: green;
+}
+/*زمانی که لینک اکتیو است */
+
+a:active{
+  color: black;
 }
